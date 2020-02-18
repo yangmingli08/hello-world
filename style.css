@@ -16,7 +16,8 @@ p {
   margin: auto;
   text-align: center;
 }
-button{
+
+button {
   margin: 2px;
   width: 100px;
   border-radius: 12px;
@@ -26,31 +27,41 @@ button{
   font-family: Lobster;
   font-size: 1.2em;
 }
+
+footer {
+  font-family: Lobster;
+}
+
 .card {
   width: 70px;
 }
 
-.pfloat{
-  float:right;
+.pfloat {
+  float: right;
 }
-.upbox{
+
+.upbox {
   background-color: grey;
+  margin-bottom: 70px;
   float: top;
 }
-.downbox{
+
+.downbox {
   background-color: grey;
   float: right;
 }
-.pini{
+
+.pini {
   background-color: grey;
   border: 3px solid DarkGrey;
 }
 
-.dpBox{
+.dpBox {
   overflow: auto;
   padding: 10px 100px 10px 100px;
   border: 3px solid AliceBlue;
 }
+
 #dBox {
   margin-left: 0px;
   background-color: Bisque;
@@ -85,7 +96,7 @@ button{
   text-align: center;
 }
 
-footer{
+footer {
   margin-top: 5px;
   margin-left: 20px;
 }

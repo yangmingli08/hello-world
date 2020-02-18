@@ -17,8 +17,7 @@ function dealCard(pid, receiver) {
     location.reload();
   }
   console.log((index + 1) + 'nd card dealt, which is ' + cardGenerator(bjDeck[index]) + ' with a value of ' + cardValue(bjDeck[index]));
-  document.getElementById(pid).innerHTML = cardGenerator(bjDeck[index])+'<img class=\'card\' src=\"' + deckImgUrl[bjDeck[index]] + '\">';
-
+  document.getElementById(pid).innerHTML = cardGenerator(bjDeck[index]) + '<img class=\'card\' src=\"' + deckImgUrl[bjDeck[index]] + '\">';
   if (cardValue(bjDeck[index]) == 11) {
     receiver == 'dealer' ? dealerAceCount++ : receiver == 'player' ? playerAceCount++ : receiver = 'nobody';
     console.log(receiver.toUpperCase() + ' just got an Ace! Dealer:Player ACE ' + dealerAceCount + ':' + playerAceCount);
@@ -36,13 +35,11 @@ function clear() {
   did = 0;
   document.getElementById('dResult').innerHTML = 'DEALER';
   document.getElementById('pResult').innerHTML = 'PLAYER';
-
   for (let i = 0; i < 10; i++) {
     document.getElementById('d' + i).innerHTML = '';
     document.getElementById('p' + i).innerHTML = '';
   }
 }
-
 
 function deal() {
   clear();
@@ -50,7 +47,6 @@ function deal() {
   dValue = dealCard('dealer0', 'dealer');
   pValue += dealCard('player0', 'player');
   document.getElementById('dealersValue').innerHTML = 'Dealer\'s value is ' + dValue;
-
   if (pValue == 22) {
     pValue -= 10;
     playerAceCount--;

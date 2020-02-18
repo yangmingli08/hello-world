@@ -20,7 +20,7 @@ function shuffleDeck(pid) {
     }
   }
   bjDeck = array;
-  //dummy deck for testing purpose
+  //dummy for testing purpose
   // bjDeck = [0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0];
 }
 
