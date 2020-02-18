@@ -46,9 +46,11 @@ function clear() {
 
 function deal() {
   clear();
-  dValue = dealCard('dealer', 'dealer');
-  pValue = dealCard('player', 'player') + dealCard('player2', 'player');
+  pValue = dealCard('player1', 'player');
+  dValue = dealCard('dealer0', 'dealer');
+  pValue += dealCard('player0', 'player');
   document.getElementById('dealersValue').innerHTML = 'Dealer\'s value is ' + dValue;
+
   if (pValue == 22) {
     pValue -= 10;
     playerAceCount--;
