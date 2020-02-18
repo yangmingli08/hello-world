@@ -69,7 +69,7 @@ footer {
   padding: 20px;
   text-align: center;
   float: left;
-  width: 350px;
+  width: 38%;
 }
 
 #pBox {
@@ -78,7 +78,7 @@ footer {
   padding: 20px;
   float: right;
   text-align: center;
-  width: 450px;
+  width: 50%;
 }
 
 #rBox {
