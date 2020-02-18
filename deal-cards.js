@@ -34,6 +34,9 @@ function clear() {
   pValue = 0;
   pid = 0;
   did = 0;
+  document.getElementById('dResult').innerHTML = 'DEALER';
+  document.getElementById('pResult').innerHTML = 'PLAYER';
+
   for (let i = 0; i < 10; i++) {
     document.getElementById('d' + i).innerHTML = '';
     document.getElementById('p' + i).innerHTML = '';
