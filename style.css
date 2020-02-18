@@ -58,7 +58,7 @@ footer {
 
 .dpBox {
   overflow: auto;
-  padding: 10px 1% 10px 1%;
+  padding: 2% 3.5% 2% 3.5%;
   border: 3px solid AliceBlue;
 }
 
@@ -78,7 +78,7 @@ footer {
   padding: 20px;
   float: right;
   text-align: center;
-  width: 50%;
+  width: 49%;
 }
 
 #rBox {
@@ -94,7 +94,7 @@ footer {
   margin: auto;
   width: 80%;
   border: 3px solid BlueViolet;
-  padding: 10px 100px 10px 100px;
+  padding: 2% 5% 2% 5%;
   text-align: center;
 }
 
