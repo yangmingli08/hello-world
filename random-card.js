@@ -8,7 +8,7 @@ function rdm() {
   return Math.floor(Math.random() * max);
 }
 
-function shuffleDeck(pid) {
+function shuffleDeck() {
   let array = [];
   while (bjDeck.length > 0) {
     let temp = rdm();

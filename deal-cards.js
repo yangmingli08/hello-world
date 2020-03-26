@@ -100,17 +100,17 @@ function stay() {
 
 function announceWinner(winner, d, p) {
   if (winner == 'dealer') {
-    alert('Dealer WIN!');
     document.getElementById('dResult').innerHTML = 'Dealer Win  on hand ' + d;
     document.getElementById('pResult').innerHTML = 'Player Lose on hand ' + p;
+    setTimeout(function(){ alert("LOSE"); }, 350);
   } else if (winner == 'player') {
-    alert('player WIN!');
     document.getElementById('dResult').innerHTML = 'Dealer Lose on hand ' + d;
     document.getElementById('pResult').innerHTML = 'Player Win  on hand ' + p;
+    setTimeout(function(){ alert("WIN!"); }, 350);
   } else {
-    alert('DRAW');
     document.getElementById('dResult').innerHTML = 'Draw on hand ' + d;
     document.getElementById('pResult').innerHTML = 'Draw on hand ' + p;
+    setTimeout(function(){ alert("DRAW!"); }, 350);
   }
   flag = false;
 }
